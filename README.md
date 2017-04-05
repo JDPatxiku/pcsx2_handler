@@ -25,17 +25,16 @@ To quit PCSX2 just press start and select button simultaneously.
 1. Follow the instructions above to place and make the script executable.
 
 1. You must edit `es_system.cfg` to launch the script, in my case it is located on `/home/user/.emulationstation/es_system.cfg`
-    Add the following to `es_system.cfg` between `<systemList>` tags:
-
-    `<system>
-        <name>ps2</name>
-        <fullname>PlayStation 2</fullname>
-        <path>pathToYourPs2RomFolder</path>
-        <extension>.iso .ISO .cue .CUE</extension>
-        <command>/home/yourusername/pcsx2_handler/pcsx2_handler.py  --pcsx2 "/usr/games/PCSX2 --fullscreen --nogui %ROM%"</command>
-        <platform>ps2</platform>
-        <theme>ps2</theme>
-    </system>`
+Add the following to `es_system.cfg` between `<systemList>` tags:
+`<system>
+	<name>ps2</name>
+    <fullname>PlayStation 2</fullname>
+    <path>pathToYourPs2RomFolder</path>
+    <extension>.iso .ISO .cue .CUE</extension>
+    <command>/home/yourusername/pcsx2_handler/pcsx2_handler.py  --pcsx2 "/usr/games/PCSX2 --fullscreen --nogui %ROM%"</command>
+    <platform>ps2</platform>
+    <theme>ps2</theme>
+</system>`
 
 **Restart** emulationstation and you should have the script properly integrated, it will handle the PCSX2 emulator and take you back to emulationstation when you close PCSX2 emulator.
 
