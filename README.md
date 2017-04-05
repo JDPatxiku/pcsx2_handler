@@ -12,7 +12,7 @@ It solves the problem of having to use a keyboard to close pcsx2, making it poss
 
 ### Usage
 
-1. Download the script and place it on `/home/$Username/pcsx2_handler`
+1. Download the script and place it on `/home/yourusername/pcsx2_handler`
 
 1. Make it executable: `sudo chmod +x /home/yourusername/pcsx2_handler/pcsx2_handler.py`
 
